@@ -81,16 +81,6 @@ function Navbar({
                 <Icon.Home {...activeNavIcon('/')} />
               </span>
             </Link>
-            <Link to="/blog">
-              <span>
-                <Icon.Book {...activeNavIcon('/blog')} />
-              </span>
-            </Link>
-            <Link to="/about">
-              <span>
-                <Icon.HelpCircle {...activeNavIcon('/about')} />
-              </span>
-            </Link>
             <span>
               <SunMoon {...{darkMode}} />
             </span>
