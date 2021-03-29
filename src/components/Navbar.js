@@ -59,7 +59,7 @@ function Navbar({
 
       <div className="navbar-middle">
         <Link to="/" onClick={setExpand.bind(this, false)}>
-          Covindia<span>.info</span>
+          <span>Covindia</span>
         </Link>
       </div>
 
