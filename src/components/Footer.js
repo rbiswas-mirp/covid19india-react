@@ -1,10 +1,5 @@
 import {memo} from 'react';
-import {Twitter, GitHub, Database, Mail, Send} from 'react-feather';
-import {useTranslation} from 'react-i18next';
-
 function Footer() {
-  const {t} = useTranslation();
-
   return (
     <footer>
       <div className="link">
